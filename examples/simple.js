@@ -273,7 +273,4 @@ const Test = React.createClass({
   },
 });
 
-ReactDOM.render(
-  <div>
-    <Test />
-  </div>, document.getElementById('__react-content'));
+ReactDOM.render(<Test />, document.getElementById('__react-content'));

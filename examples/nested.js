@@ -87,6 +87,8 @@ const Test = React.createClass({
   },
 });
 
-ReactDOM.render(<div style={{ margin: 200 }}>
-  <Test />
-</div>, document.getElementById('__react-content'));
+ReactDOM.render(
+  <div style={{ margin: 200 }}>
+    <Test />
+  </div>
+, document.getElementById('__react-content'));
